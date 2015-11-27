@@ -6,7 +6,7 @@ import * as ReactRouter from "react-router";
 
 import Hello from "./hello";
 import Menu from "./menu";
-import routes from "./config/"
+import routes from "./config/routes";
 
 class App extends React.Component<{}, {}> {
     constructor() {
