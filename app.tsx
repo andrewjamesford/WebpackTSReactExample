@@ -5,14 +5,17 @@ import * as ReactDOM from "react-dom";
 import * as ReactRouter from "react-router";
 
 import Hello from "./hello";
-
+import Menu from "./menu";
+import routes from "./config/"
 
 class App extends React.Component<{}, {}> {
     constructor() {
         super();
     }
     public render() {
-        return <Hello></Hello>
+        return (
+           <Hello></Hello>
+           )
     }
 }       
 

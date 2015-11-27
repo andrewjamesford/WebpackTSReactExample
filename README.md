@@ -1,2 +1,3 @@
 # WebpackTSReactExample
-An example app that uses Webpack, TypeScript and React
+An example web app that uses [Webpack](http://webpack.github.io/), [TypeScript](http://www.typescriptlang.org/) and [ReactJS](https://facebook.github.io/react/).
+

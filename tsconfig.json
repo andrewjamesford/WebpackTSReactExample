@@ -1,12 +1,17 @@
 {
-	"compilerOptions": {
-		"target": "es5",
-		"module": "commonjs",
-		"jsx": "react"
-	},
-	"files": [
-		"app.tsx",
-		"hello.tsx",
-		"typings/tsd.d.ts"
-	]
+   "compilerOptions": {
+      "target": "es5",
+      "module": "commonjs",
+      "jsx": "react"
+   },
+   "files": [
+      "app.tsx",
+      "menu.tsx",
+      "hello.tsx",
+      "config/routes.tsx",
+      "typings/tsd.d.ts"
+   ],
+   "exclude": [
+      "node_modules"
+   ]
 }
