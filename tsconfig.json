@@ -7,11 +7,14 @@
    "files": [
       "app.tsx",
       "menu.tsx",
-      "hello.tsx",
-      "config/routes.tsx",
+      "home.tsx",
+      "about.tsx",
+      "routes.tsx",		
       "typings/tsd.d.ts"
    ],
    "exclude": [
-      "node_modules"
+      "node_modules",
+      "README.md",
+      "LICENSE"
    ]
 }

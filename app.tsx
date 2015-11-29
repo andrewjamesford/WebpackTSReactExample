@@ -2,26 +2,11 @@
 
 import * as React from "react";
 import * as ReactDOM from "react-dom";
-import * as ReactRouter from "react-router";
 
-import Hello from "./hello";
-import Menu from "./menu";
-import routes from "./config/routes";
-
-class App extends React.Component<{}, {}> {
-    constructor() {
-        super();
-    }
-    public render() {
-        return (
-           <Hello></Hello>
-           )
-    }
-}       
-
+import MyRouter from "./routes";
 
 ReactDOM.render(    
-    React.createElement(Hello),
+    React.createElement(MyRouter),
     document.getElementById('app')
 );
 

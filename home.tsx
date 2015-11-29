@@ -2,13 +2,13 @@
 
 import * as React from "react";
 
-export default class Hello extends React.Component<{}, {}> {
+export default class Home extends React.Component<{}, {}> {
 	
 	constructor() {
 		super();
 	}
 	
 	public render() {
-		return <div>Hello React 1</div>
+		return <div>Home page</div>
 	}
 }
