@@ -1,7 +1,7 @@
 /// <reference path="typings/tsd.d.ts" />
 
 import * as React from "react";
-import { Router, Route, Link } from "react-router";
+import { IndexRoute, Router, Route, Link } from "react-router";
 
 import Menu from "./menu";
 import Home from "./home";
@@ -18,8 +18,9 @@ export default class MyRouter extends React.Component<{}, {}> {
          <div>
 				<Menu></Menu>
             <Router>
-               <Route path="/" component={Home}>
-                  <Route path="/about" component={About}/>                  
+               <Route path="/">
+                  <IndexRoute component={Home}/>
+                  <Route path="about" component={About}/>                  
                </Route>
             </Router>
          </div>
