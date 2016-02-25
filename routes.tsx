@@ -6,6 +6,8 @@ import { IndexRoute, Router, Route, Link } from "react-router";
 import Menu from "./menu";
 import Home from "./home";
 import About from "./about";
+import FormComps from "./formcomps";
+
 
 export default class MyRouter extends React.Component<{}, {}> {
 	
@@ -20,7 +22,8 @@ export default class MyRouter extends React.Component<{}, {}> {
             <Router>
                <Route path="/">
                   <IndexRoute component={Home}/>
-                  <Route path="about" component={About}/>                  
+                  <Route path="about" component={About}/>
+                  <Route path="grid" component={FormComps}/>
                </Route>
             </Router>
          </div>
